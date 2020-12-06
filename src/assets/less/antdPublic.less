@@ -1,0 +1,55 @@
+
+@import 'variable.less';
+
+/*==========修改antd样式=====*/
+
+
+// ========table============
+.ant-table-thead > tr > th {
+  background: #fff!important;
+}
+
+.ant-table-thead > tr > th {
+  color: rgba(144, 147, 153, 1)!important;
+  font-size: 14px!important;
+  font-family: Helvetica-regular;
+  font-weight: normal!important;
+}
+
+.ant-table-tbody > tr > td {
+  vertical-align: middle;
+}
+
+.ant-table-wrapper {
+  height: 100%;
+  .ant-spin-nested-loading {
+    height: 100%;
+    .ant-spin-container {
+      height: 100%;
+      .ant-table {
+        height: calc(100% - 50px);
+        .ant-table-container {
+          height: 100%;
+          .ant-table-body {
+            height: calc(100% - 55px);
+          }
+        }
+      }
+      .ant-pagination {
+        height: 50px;
+      }
+    }
+  }
+}
+
+
+// ========input=========
+.ant-input-search-icon::before {
+  display: none!important;
+}
+
+// =======tabs===========
+.ant-tabs > .ant-tabs-nav {
+  margin: 0;
+}
+

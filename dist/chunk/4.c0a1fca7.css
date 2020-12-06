@@ -1,0 +1,79 @@
+.inner-page-head {
+  position: relative;
+  width: 100%;
+  height: 47px;
+  line-height: 47px;
+  color: #101010;
+  font-size: 20px;
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+  padding: 0 30px;
+  background: #fff;
+}
+.inner-page-head .active-btn {
+  position: absolute;
+  right: 30px;
+  top: 8px;
+  border-radius: 5px;
+}
+.inner-page-head .close-icon {
+  position: absolute;
+  right: 10px;
+  top: 8px;
+}
+
+.list-wrap-modal {
+  position: absolute;
+  width: 90%;
+  height: 90%;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  background: #fff;
+  border-radius: 16px;
+  border: 1px solid #e7e7e7;
+  overflow: hidden;
+  padding: 10px 0;
+}
+.list-wrap-modal .list-wrap-modal-content {
+  height: calc(100% - 47px);
+  padding: 0 30px;
+}
+
+.anchor-manage-list {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.anchor-manage-list .list-content {
+  width: 100%;
+  height: calc(100% - 47px);
+  padding: 20px 30px;
+}
+.anchor-manage-list .list-content .list-content-inner {
+  width: 100%;
+  height: 100%;
+  background: #fff;
+  padding: 20px;
+  overflow: hidden;
+}
+.anchor-manage-list .list-content .list-content-inner .inner-wrap {
+  width: 100%;
+  height: 100%;
+}
+.anchor-manage-list .list-content .list-content-inner .inner-wrap .inner-wrap-head {
+  height: 50px;
+}
+.anchor-manage-list .list-content .list-content-inner .inner-wrap .inner-wrap-head .search-btn {
+  margin: 0 10px;
+}
+.anchor-manage-list .list-content .list-content-inner .inner-wrap .inner-wrap-content {
+  height: calc(100% - 50px);
+}
+.anchor-manage-list .head-item {
+  display: inline-block;
+  margin-right: 50px;
+}
+

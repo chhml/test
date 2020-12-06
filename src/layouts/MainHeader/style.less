@@ -1,0 +1,97 @@
+.main-header {
+  background: #fff;
+  padding: 0;
+  z-index: 100;
+  box-shadow: 0 1px 4px 0 rgba(0, 21, 41, 0.12);
+  .trigger {
+    font-size: 18px;
+    line-height: 64px;
+    padding: 0 16px;
+    cursor: pointer;
+    transition: color 0.3s;
+
+    &:hover {
+      color: #1890ff;
+    }
+  }
+
+  .user-info {
+    cursor: pointer;
+    padding: 0 10px;
+    &:hover {
+      color: #1890ff;
+      background: rgba(0, 0, 0, 0.045);
+    }
+    .user-img {
+      vertical-align: middle;
+      height: 32px;
+      width: 32px;
+      border-radius: 32px;
+      border: 1px solid rgb(221, 221, 221);
+      background: url("~@/assets/images/logoBlack.png") no-repeat;
+      background-size: cover;
+      display: inline-block;
+    }
+    .user-name {
+      margin-left: 10px;
+    }
+  }
+
+}
+.account{
+  width:200px;
+  color: rgba(16, 16, 16, 1);
+  text-align: left;
+  font-family: SourceHanSansSC-regular;
+  .line{
+    margin:10px 10px;
+    .role{
+      width: auto;
+      height: 24px;
+      line-height: 20px;
+      border-radius: 5px;
+      background-color: rgba(230, 121, 121, 1);
+      color: rgba(255, 255, 255, 1);
+      font-size: 13px;
+      text-align: center;
+      font-family: Roboto;
+      border: 1px solid rgba(255, 255, 255, 0);
+    }
+    .changePass{
+      width: 80px;
+      height: 30px;
+      border-radius: 4px;
+      color: rgba(16, 16, 16, 1);
+      font-size: 14px;
+      text-align: center;
+      font-family: Microsoft Yahei;
+      border: 1px solid rgba(187, 187, 187, 1);
+      margin-left:10px;
+    }
+    p{
+      display:inline-block;
+      font-size: 16px;
+
+    }
+    span{
+      display:inline-block;
+      font-size: 13px;
+      margin-left:10px;
+
+    }
+  }
+}
+.editinfo{
+  margin-bottom:30px;
+}
+.button{
+  position: absolute;
+  width: 100%;
+  text-align: right;
+  .btn:nth-child(1){
+    margin-right: 50px;
+  }
+}
+.ant-dropdown-menu-item{
+  width: 260px;
+}
